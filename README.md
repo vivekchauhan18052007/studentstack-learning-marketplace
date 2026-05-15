@@ -54,7 +54,7 @@ Built using HTML, CSS and JavaScript with authentication system, cart functional
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
 - LocalStorage API
 - Font Awesome
 
