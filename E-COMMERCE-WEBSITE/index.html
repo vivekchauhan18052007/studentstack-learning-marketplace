@@ -1,0 +1,303 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/e-commerce.css"  />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="logo" class="hover">
+        <i class="fa-solid fa-user-graduate"></i>
+        <img src="image/logo-removebg.png" />
+      </div>
+
+      <div id="input">
+        <input type="text" placeholder="Search notes, projects..." />
+      </div>
+
+      <div id="pages">
+        <a href="index.html" class="opacity">Home</a>
+        <a href="cart.html" class="opacity">Cart</a>
+        <a href="login.html" class="opacity">Login</a>
+        <a href="register.html" class="opacity">Register</a>
+      </div>
+
+      <div id="mode" class="hover">
+        <i class="fa-solid fa-sun hidden opacity" id="light"></i>
+        <i class="fa-regular fa-moon opacity" id="dark"></i>
+      </div>
+
+      <div id="cart" class="hover opacity">
+        <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+      </div>
+
+      <div id="profile" class="hover opacity">
+        <img src="image/profile.jpeg">
+      </div>
+    </div>
+
+    <div id="container">
+      <div id="side-bar">
+        <div id="slide-category">
+          <div id="allcategory" class="border-hover opacity">
+            <i class="fa-solid fa-border-all"></i>
+            All Category
+          </div>
+
+          <div id="frontend" class="border-hover opacity">
+            <i class="fa-solid fa-desktop"></i>
+            Frontend
+          </div>
+
+          <div id="backend" class="border-hover opacity">
+            <i class="fa-solid fa-code"></i>
+            Backend
+          </div>
+
+          <div id="devops" class="border-hover opacity">
+            <i class="fa-brands fa-docker"></i>
+            DevOps
+          </div>
+
+          <div id="ui-ux" class="border-hover opacity">
+            <i class="fa-solid fa-mortar-pestle"></i>
+            UI/UX
+          </div>
+
+          <div id="notes" class="border-hover opacity">
+            <i class="fa-solid fa-note-sticky"></i>
+            Notes
+          </div>
+
+          <div id="projects" class="border-hover opacity">
+            <i class="fa-solid fa-diagram-project"></i>
+            Projects
+          </div>
+
+          <div id="templates" class="border-hover opacity">
+            <i class="fa-brands fa-buromobelexperte"></i>
+            Templates
+          </div>
+        </div>
+
+        <div id="filter-box">
+          <div id="filter-head">
+            <h3>Filters</h3>
+            <p class="hover opacity" id="clearPrice">Clear</p>
+          </div>
+
+          <div id="filter">
+            <p>Price Range</p>
+            <input
+              type="range"
+              min="0"
+              max="2000"
+              value="2000"
+              id="priceRange"
+              class="hover"
+            />
+            <div id="filterOutput">
+              <p><span id="filterValue"></span></p>
+              <button>Enter</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="filter-type">
+          <p>Type</p>
+          <label
+            ><input
+              type="checkbox"
+              class="hover opacity"
+              id="all-type"
+            />All</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              class="hover opacity"
+              id="free-type"
+            />Free</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              class="hover opacity"
+              id="paid-type"
+            />Paid</label
+          >
+        </div>
+
+        <div id="filter-rating">
+          <p>Rating</p>
+          <label
+            ><input
+              type="checkbox"
+              id="star4"
+              value="4"
+              class="hover opacity"
+            />
+            ⭐⭐⭐⭐☆ & up
+          </label>
+
+          <label
+            ><input
+              type="checkbox"
+              id="star3"
+              value="3"
+              class="hover opacity"
+            />
+            ⭐⭐⭐☆☆ & up
+          </label>
+
+          <label
+            ><input
+              type="checkbox"
+              id="star2"
+              value="2"
+              class="hover opacity"
+            />
+            ⭐⭐☆☆☆ & up
+          </label>
+
+          <label
+            ><input
+              type="checkbox"
+              id="star1"
+              value="1"
+              class="hover opacity"
+            />
+            ⭐☆☆☆☆ & up
+          </label>
+        </div>
+      </div>
+
+      <div id="hero">
+        <div id="header">
+          <img src="image/hero.png" />
+        </div>
+
+        <div id="heroNav">
+          <h1 id="stack-head">Popular Picks</h1>
+          <div id="category">
+            <p>Sort by:</p>
+            <select name="category" id="category-list" class="hover opacity">
+              <option value="all">All</option>
+              <option value="low-high">Price Low to High</option>
+              <option value="high-low">Price High to Low</option>
+              <option value="popular">Popularity</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="stack-contaioner">
+          <ul id="stacklist"></ul>
+        </div>
+      </div>
+
+      <div id="productModal" class="hidden">
+         <div id="modalContent">
+
+          <div id="closepopup" class="hover">
+            <span id="closeModal">✖</span>
+          </div>
+          
+          <div id="popImg">
+            <img id="modalImg" />
+          </div>
+          
+          <div id="popTitle">
+            <h2 id="modalTitle"></h2>  
+          </div>
+
+          <div id="popPrce">
+            <p id="modalPrice"></p>
+          </div>
+          
+          <div id="popDesc">
+            <p id="modalDesc"></p>
+          </div>
+          
+
+          <div id="popTech">
+            <p id="modalTech"></p>
+          </div>
+          
+          <div id="popRating">
+            <p id="modalRating"></p>
+          </div>
+          
+          <div id="popBtn" >
+            <button id="modalCartBtn" class="hover">Add To Cart</button>
+          </div>
+          
+        </div>
+      </div>
+
+      <div id="checkout-sidebar" class="hidden">
+        <div id="your-cart">
+          <div id="back" class="opacity">
+            <i class="fa-solid fa-arrow-left-long hover opacity"></i>
+          </div>
+
+          <p id="cartVal">Your Cart (0)</p>
+          <hr />
+
+          <div id="cart-list"></div>
+          <hr />
+
+          <div id="sub-total-box">
+            <p id="sub-total">Sub Total</p>
+            <p id="sub-totalVal">₹0</p>
+          </div>
+
+          <hr />
+
+          <div id="total-box">
+            <p id="total">Total</p>
+            <p id="totalVal">0</p>
+          </div>
+          <div id="btnBox">
+            <button id="checkoutBtn">checkout</button>
+            <a href="cart.html">
+              <button id="viewCartBtn">View Cart</button>
+            </a>
+          </div>
+        </div>
+
+        <div id="deal-of-day">
+          <p>🔥Deal Of The Day</p>
+          <div id="deal"></div>
+          <button id="dealBtn">Grab The Deal</button>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div id="footer-container">
+        <div id="footer-logo">
+          <i class="fa-solid fa-user-graduate"></i>
+          <h2>StudentStack</h2>
+        </div>
+
+        <div id="footer-links">
+          <a href="index.html" class="opacity">Home</a>
+        <a href="cart.html" class="opacity">Cart</a>
+        <a href="login.html" class="opacity">Login</a>
+        <a href="register.html" class="opacity">Register</a>
+        </div>
+
+        <div id="footer-text">
+          <p>&#169 Made by Vivek Chauhan.</p>
+        </div>
+      </div>
+    </footer>
+</body>
+  <script src="js/page.js"></script>
+  <script src="js/e-commerce.js"></script>
+  <script src="js/auth.js"></script>
+</html>

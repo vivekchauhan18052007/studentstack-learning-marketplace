@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+        <div id="navbar">
+      <div id="logo" class="hover">
+        <i class="fa-solid fa-user-graduate"></i>
+        <img src="image/logo-removebg.png" />
+      </div>
+
+      <div id="input">
+        <input type="text" placeholder="Search Cart Product..." />
+      </div>
+
+      <div id="pages">
+        <a href="index.html" class="opacity">Home</a>
+        <a href="cart.html" class="opacity">Cart</a>
+        <a href="login.html" class="opacity">Login</a>
+        <a href="register.html" class="opacity">Register</a>
+      </div>
+
+      <div id="mode" class="hover">
+        <i class="fa-solid fa-sun hidden opacity" id="light"></i>
+        <i class="fa-regular fa-moon opacity" id="dark"></i>
+      </div>
+
+
+      <div id="profile" class="hover opacity">
+        <img src="image/profile.jpeg">
+      </div>
+    </div>
+
+    <div id="cartContainer">
+      <div id="cartSaection">
+        <div id="cartHead">
+          <div id="yourCart">
+            <h1>Your Cart</h1>
+            <p></p>
+          </div>
+
+          <a href="index.html">
+            <div id="backToCart" class="hover opacity">
+              <i class="fa-solid fa-arrow-left-long hover opacity"></i>    
+              <p>Continue Shopping</p>        
+          </div>
+          </a>
+          
+        </div>
+
+        <ul id="cartUl">
+        </ul>
+
+        <div id="coupon">
+          <div id="couponHead">
+            <i class="fa-solid fa-tag"></i>
+            <p>Have a coupon code?</p>
+          </div>
+
+          <div id="couponInput">
+            <input type="text" id="couponText" placeholder="Enter coupon code">
+            <button id="couponBtn" class="hover">Apply</button>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div id="summary">
+        <h3>Order Summary</h3>
+        <div id="subTotalTextSummary">
+           <p id="subTotalText"> Sub Total (0 items) </p>   
+           <p id="subTotalPriceSummary">₹0</p>
+        </div>
+
+        <div id="discountTotalSummary">
+           <p id="discountText">Discount</p>   
+           <p id="discountTotalPriceSummary">₹0</p>
+        </div>
+
+        <hr>
+
+        <div id="TotalSummary">
+           <p id="totalSummary"> Total  </p>   
+           <p id="totalPriceSummary">₹0 </p>
+        </div>
+
+        <div id="discountMsg" class="hidden" >
+          <i class="fa fa-truck"></i>
+          <p></p>  
+        </div>
+
+        <div id="discountCheckout">
+          <button id="checkoutBtn">
+            <i class="fa-solid fa-lock"></i>
+            Proceed To Checkout
+          </button>
+        </div>
+
+        <div id="discountoffer">
+          <button id="offerBtn">
+            <i class="fa-solid fa-tag"></i>
+            View Offers
+          </button>
+        </div>
+        
+        <div id="summarySecure">
+          <i class="fas fa-shield-alt"></i>
+          <div id="secureText">
+            <p>Secure Checkout</p>
+            <p>100% Secure Payments</p>
+          </div>  
+        </div>
+
+
+        <div id="summaryDownload">
+          <i class="fa-solid fa-download"></i>
+          <div id="downloadText">
+            <p>Instant Download</p>
+            <p>Get Your Files Immediately</p>
+          </div>  
+        </div>
+
+        <div id="summarySupport">
+          <i class="fas fa-headset"></i>
+          <div id="downloadText">
+            <p>24/7 Support</p>
+            <p>We're here to help you</p>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div id="footer-container">
+        <div id="footer-logo">
+          <i class="fa-solid fa-user-graduate"></i>
+          <h2>StudentStack</h2>
+        </div>
+
+        <div id="footer-links">
+          <a href="index.html">Home</a>
+          <a href="cart.html">Cart</a>
+          <a href="deals.html">Deals</a>
+          <a href="community.html">Community</a>
+        </div>
+
+        <div id="footer-text">
+          <p>&#169 Made by Vivek Chauhan.</p>
+        </div>
+      </div>
+    </footer>
+    </body>
+    <script src="js/page.js"></script>
+    <script src="js/cart.js"></script>
+</html>

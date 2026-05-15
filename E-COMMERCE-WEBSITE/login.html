@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="navbar">
+      <div id="logo" class="hover">
+        <i class="fa-solid fa-user-graduate"></i>
+        <img src="image/logo-removebg.png" />
+      </div>
+
+      <div id="pages">
+        <a href="index.html" class="opacity">Home</a>
+        <a href="cart.html" class="opacity">Cart</a>
+        <a href="login.html" class="opacity">Login</a>
+        <a href="register.html" class="opacity">Register</a>
+      </div>
+
+      <div id="mode" class="hover">
+        <i class="fa-solid fa-sun hidden opacity" id="light"></i>
+        <i class="fa-regular fa-moon opacity" id="dark"></i>
+      </div>
+
+      <div id="profile" class="hover opacity">
+        <img src="image/profile.jpeg" />
+      </div>
+    </div>
+
+    <div id="box">
+      <div class="auth-container">
+        <h2>Login</h2>
+
+        <form id="loginForm">
+          <input id="email" type="email" placeholder="Email" />
+
+          <input id="password" type="password" placeholder="Password" />
+
+          <div id="rememberCheck">
+            <label>
+              <input type="checkbox" id="remember" />
+              <p>Remember Me</p>
+            </label>
+          </div>
+
+          <button type="submit" id="loginBtn">Login</button>
+        </form>
+
+        <p>
+          New user?
+          <a href="register.html"> Register </a>
+        </p>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div id="footer-container">
+        <div id="footer-logo">
+          <i class="fa-solid fa-user-graduate"></i>
+          <h2>StudentStack</h2>
+        </div>
+
+        <div id="footer-links">
+          <a href="index.html" class="opacity">Home</a>
+        <a href="cart.html" class="opacity">Cart</a>
+        <a href="login.html" class="opacity">Login</a>
+        <a href="register.html" class="opacity">Register</a>
+        </div>
+
+        <div id="footer-text">
+          <p>&#169 Made by Vivek Chauhan.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/page.js"></script>
+  <script src="js/auth.js"></script>
+</html>
