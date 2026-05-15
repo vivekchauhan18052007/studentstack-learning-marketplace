@@ -15,7 +15,7 @@ Built using HTML, CSS and JavaScript with authentication system, cart functional
 - User Registration & Login
 - Remember Me functionality
 - Auth Guard Protection
-- Auto Logout System
+- Logout System
 
 ### Home Page
 - Product Listing
