@@ -6,7 +6,7 @@ A modern E-Commerce Learning Marketplace built using HTML, CSS and JavaScript wi
 
 ## 🚀 Live Demo
 
-🌐 studentstack-learning-marketplace.netlify.app
+🌐 Login https://studentstack-learning-marketplace.netlify.app/
 
 ---
 
