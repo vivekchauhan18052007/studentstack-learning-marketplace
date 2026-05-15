@@ -201,7 +201,7 @@ E-COMMERCE-WEBSITE
 
 ## Author
 
-Made with by Vivek Chauhan
+Made by Vivek Chauhan
 
 
 
