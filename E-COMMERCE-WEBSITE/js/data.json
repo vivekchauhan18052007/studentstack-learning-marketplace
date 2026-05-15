@@ -1,1 +1,203 @@
+[
+  {
+    "id": 1,
+    "title": "Next.js 14 Starter Template",
+    "category": "Frontend",
+    "price": 299,
+    "rating": 1.2,
+    "reviews": 120,
+    "image": "image/nextjs.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 2,
+    "title": "React Dashboard UI Kit",
+    "category": "Frontend",
+    "price": 499,
+    "rating": 1.8,
+    "reviews": 98,
+    "image": "image/React Dashboard UI Kit.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 3,
+    "title": "Node.js API Boilerplate",
+    "category": "Backend",
+    "price": 399,
+    "rating": 2.1,
+    "reviews": 87,
+    "image": "image/Node.js API Boilerplate.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 4,
+    "title": "Docker DevOps Notes",
+    "category": "DevOps",
+    "price": 0,
+    "rating": 2.4,
+    "reviews": 210,
+    "image": "image/Docker DevOps Notes.jfif",
+    "type": "Free"
+  },
+  {
+    "id": 5,
+    "title": "Figma UI Design Pack",
+    "category": "UI/UX",
+    "price": 199,
+    "rating": 2.9,
+    "reviews": 143,
+    "image": "image/Figma UI Design Pack.png",
+    "type": "Paid"
+  },
+  {
+    "id": 6,
+    "title": "JavaScript Interview Notes",
+    "category": "Notes",
+    "price": 99,
+    "rating": 3.1,
+    "reviews": 54,
+    "image": "image/JavaScript Interview Notes.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 7,
+    "title": "E-Commerce Full Project",
+    "category": "Projects",
+    "price": 699,
+    "rating": 3.3,
+    "reviews": 190,
+    "image": "image/E-Commerce.jpg",
+    "type": "Paid"
+  },
+  {
+    "id": 8,
+    "title": "Portfolio Website Template",
+    "category": "Templates",
+    "price": 149,
+    "rating": 3.5,
+    "reviews": 40,
+    "image": "image/Portfolio Website Template.webp",
+    "type": "Paid"
+  },
+  {
+    "id": 9,
+    "title": "Vue.js Admin Panel",
+    "category": "Frontend",
+    "price": 349,
+    "rating": 3.7,
+    "reviews": 75,
+    "image": "image/Vue.js Admin Panel.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 10,
+    "title": "MongoDB Crash Notes",
+    "category": "Backend",
+    "price": 0,
+    "rating": 3.9,
+    "reviews": 130,
+    "image": "image/MongoDB Crash Notes.png",
+    "type": "Free"
+  },
+  {
+    "id": 11,
+    "title": "React Native Starter",
+    "category": "Frontend",
+    "price": 299,
+    "rating": 4.0,
+    "reviews": 91,
+    "image": "image/React Native Starter.png",
+    "type": "Paid"
+  },
+  {
+    "id": 12,
+    "title": "Python Backend Notes",
+    "category": "Backend",
+    "price": 120,
+    "rating": 4.1,
+    "reviews": 111,
+    "image": "image/Python Backend Notes.jpeg",
+    "type": "Paid"
+  },
+  {
+    "id": 13,
+    "title": "AWS Deployment Guide",
+    "category": "DevOps",
+    "price": 250,
+    "rating": 4.2,
+    "reviews": 89,
+    "image": "image/AWS Deployment Guide.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 14,
+    "title": "Tailwind CSS Components",
+    "category": "Frontend",
+    "price": 180,
+    "rating": 4.3,
+    "reviews": 67,
+    "image": "image/Tailwind CSS Components.png",
+    "type": "Paid"
+  },
+  {
+    "id": 15,
+    "title": "UI Wireframe Collection",
+    "category": "UI/UX",
+    "price": 220,
+    "rating": 4.4,
+    "reviews": 133,
+    "image": "image/UI Wireframe Collection.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 16,
+    "title": "HTML CSS Master Notes",
+    "category": "Notes",
+    "price": 0,
+    "rating": 4.5,
+    "reviews": 201,
+    "image": "image/HTML CSS Master Notes.jfif",
+    "type": "Free"
+  },
+  {
+    "id": 17,
+    "title": "Chat App Full Project",
+    "category": "Projects",
+    "price": 799,
+    "rating": 4.6,
+    "reviews": 172,
+    "image": "image/Chat App Full Project.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 18,
+    "title": "Bootstrap Landing Page",
+    "category": "Templates",
+    "price": 99,
+    "rating": 4.7,
+    "reviews": 45,
+    "image": "image/Bootstrap Landing Page.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 19,
+    "title": "Angular Dashboard",
+    "category": "Frontend",
+    "price": 450,
+    "rating": 4.8,
+    "reviews": 80,
+    "image": "image/Angular Dashboard.jfif",
+    "type": "Paid"
+  },
+  {
+    "id": 20,
+    "title": "Express.js Authentication",
+    "category": "Backend",
+    "price": 350,
+    "rating": 4.9,
+    "reviews": 95,
+    "image": "image/Express.js Authentication.jfif",
+    "type": "Paid"
+  }
+]
 
